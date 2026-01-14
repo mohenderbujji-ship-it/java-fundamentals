@@ -6,8 +6,8 @@ String name = details.nextLine();
 double score= details.nextDouble();
 details.nextLine();
 String department= details.nextLine();
-System.out.println("my name is "+name);
-System.out.println("my score is "+score/10 +"/10");
-System.out.print("am from "+department+" department");
+System.out.println("My name is "+name);
+System.out.println("My score is "+score/10 +"/10");
+System.out.print("Am from "+department+" department");
 }
 }
