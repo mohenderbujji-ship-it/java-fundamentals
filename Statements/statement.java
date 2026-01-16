@@ -21,9 +21,10 @@ System.out.println("yes am sure");
 else{
 System.out.println("no am not sure");
 }
-Scanner math = new Scanner(System.in);//again comparison but using scanner method getting input from user
-int num1 = math.nextInt();
-int num2 = math.nextInt();
+//again comparison but using scanner method getting input from user
+int num1 = sath.nextInt();
+int num2 = sath.nextInt();
+sath.nextLine();
 if (num1==num2){
 System.out.println("yes both values are equal");
 }
@@ -48,8 +49,8 @@ System.out.println("same");
 else{
 System.out.println("not same");
 }
-Scanner cup = new Scanner(System.in);// in string if else we doing this by gettin input from the user
-String RCB = cup.nextLine();
+// in string if else we doing this by gettin input from the user
+String RCB = sath.nextLine();
 if (RCB.equals("win"))
 System.out.println("esala cup namde");
 else{
@@ -60,6 +61,7 @@ if (meghana.equals("dead"))
 System.out.println("surya wedds ramya");
 else{
 System.out.println("surya wedds meghna");
+sath.close();
 }
 }
 }
