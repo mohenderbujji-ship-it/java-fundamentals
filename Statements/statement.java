@@ -61,7 +61,24 @@ if (meghana.equals("dead"))
 System.out.println("surya wedds ramya");
 else{
 System.out.println("surya wedds meghna");
-sath.close();
 }
+int mark = sath.nextInt();
+
+if (mark>89 && mark<101){
+System.out.println("Grade-A");
+}
+else if(mark>74 && mark<90){
+System.out.println("Grade-B");
+}
+else if(mark>59 && mark<75){
+System.out.println("Grade-C");
+}
+else if(mark>39 && mark<60){
+System.out.println("Grade-D");
+}
+else{
+System.out.println("FAIL");
+}
+sath.close();
 }
 }
