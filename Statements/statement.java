@@ -79,6 +79,28 @@ System.out.println("Grade-D");
 else{
 System.out.println("FAIL");
 }
+//nested if statement practice nested if used for we can create if inside a if and so on every if needed else if its wrong
+int age= sath.nextInt();
+int ID = sath.nextInt();
+if (age>=18)
+  if (ID==1)
+System.out.println("eligible for vote");
+else {
+System.out.println("user id required");
+}
+else
+System.out.println("not eligible for vote");
+// else if statement practice else if used for to stop in value and do not check the next if or else 
+int Age = sath.nextInt();
+int hasid = sath.nextInt();
+boolean adult =Age>=18;
+boolean Id = hasid==1;
+if (adult && Id)
+System.out.println("eligible for vote");
+else if ( adult)
+System.out.println("id required");
+else
+System.out.println("not eligible for vote");
 sath.close();
 }
 }
