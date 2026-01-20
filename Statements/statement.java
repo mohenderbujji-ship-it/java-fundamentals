@@ -101,6 +101,22 @@ else if ( adult)
 System.out.println("id required");
 else
 System.out.println("not eligible for vote");
+int pin = sath.nextInt();
+
+if (pin == 3056)
+  {
+int balance = sath.nextInt();
+   if(balance<=500)
+   {
+    System.out.println("amount proccesing");
+   }
+   else
+   {
+    System.out.println("insufisiant balance");
+   } 
+  } else {
+     System.out.println("invalid pin");
+   }
 sath.close();
 }
 }
