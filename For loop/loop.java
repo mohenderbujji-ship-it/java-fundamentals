@@ -30,6 +30,18 @@ if(i%3==0 && i%5==0){
 System.out.println(i); 
 }
 }
+for (int i=1;i<=20;i=i+1){
+    for(int j=1;j<=i;j=j+1){
+System.out.print("*");
+}
+System.out.println();
+}
+for (int p=20;p>=1;p=p-1){
+    for(int m=1;m<=p;m=m+1){
+System.out.print("*");
+}
+System.out.println();
+}
 scan.close();
 }
 }
