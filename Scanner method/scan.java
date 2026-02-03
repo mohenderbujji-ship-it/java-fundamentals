@@ -1,6 +1,6 @@
 import java.util.Scanner;
 // scanner is used for getting input from user through terminal
-class scanner {
+class scan {
 public static void main(String [] args){
 Scanner details = new Scanner(System.in);
 String name = details.nextLine();
